@@ -1,7 +1,7 @@
 ﻿# 接口接入说明
 
 ### 接口地址
-https://pa_report.zplayads.com
+https://pa-report.zplayads.com
 
 ### 接入条件
 * 确保账号已经审核通过
@@ -16,11 +16,10 @@ https://pa_report.zplayads.com
 * 验证通过后, 每天同一资源可请求100次
 
 ### 接口的验证
-开发者审核通过后,请求接口需要带有四个参数
+开发者审核通过后,请求接口需要带有三个参数
 
 参数 | 类型 | 位置 | 描述
 ---| -- | --- | --
-developer_account_id | string | path | 开发者id
 signature | string | query | 加密签名，signature结合了开发者的密钥参数和请求中的timestamp参数、nonce参数。
 timestamp | int | query | 时间戳
 nonce | int | query | 随机数
