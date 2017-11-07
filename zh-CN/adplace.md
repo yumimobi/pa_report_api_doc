@@ -35,4 +35,4 @@ app_id | string | path | 应用id
 ---|---|--
 app_id | string | 应用id
 place_id | string | 广告位id
-name | string | 应用名称
+name | string | 广告位名称
