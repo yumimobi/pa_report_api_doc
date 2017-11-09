@@ -10,12 +10,12 @@ developer/{developer_account_id}/app/{app_id}/stats | GET | 应用的统计数�
 
 字段 | 数据类型 | 位置 | 说明
 ---|---|--|--
-developer_account_id | string | path | 开发者id
+developer_account_id | string | 位置 | 开发者id
 app_id | string | path | 应用id
-page | int | query | 页码 默认为1
-size | int | query | 数量 默认为20,不可以超过50 
-start_date | int | query | 开始日期,时间格式为:Ymd,示例: 20171106
-end_date | int | query | 结束日期,时间格式为:Ymd,示例: 20171106
+page | int | query | 页码 非必填,默认为1
+size | int | query | 数量 非必填,默认为20,不可以超过50 
+start_date | int | query | 开始日期,非必填,时间格式为:Ymd,示例: 20171106
+end_date | int | query | 结束日期,非必填,时间格式为:Ymd,示例: 20171106
 
 ## 响应
 ### 示例
