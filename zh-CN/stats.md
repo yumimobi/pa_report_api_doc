@@ -29,7 +29,7 @@ end_date | int | query | 结束日期,非必填,时间格式为:Ymd,示例: 2017
             {
                 "date": 20171005,
                 "app_id": "80183BCF-6B19-0C8D-AC00-112DA4AEF846",
-                "place_id": "818D83B1-20D6-EEC4-47C9-A6E6CCB3A17A",
+                "ad_unit_id": "818D83B1-20D6-EEC4-47C9-A6E6CCB3A17A",
                 "play_start": 3386,
                 "play_finish": 2956,
                 "imp": 4095,
@@ -55,7 +55,7 @@ list | array | 统计数据列表
 ---|---|--
 date | int | 日期
 app_id | string | 应用id
-place_id | string | 广告位id
+ad_unit_id | string | 广告位id
 play_start | int | 播放开始
 play_finish | int | 播放结束
 imp | int | 展示
